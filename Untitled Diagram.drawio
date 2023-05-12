@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T13:00:37.754Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="3Ik2JZu0m8MydBtCo20g" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T13:17:04.967Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="v9qtrnVhclokJiwQpoRy" version="21.2.9" type="github">
   <diagram name="Page-1" id="zYuu9pua7qCV4rpFZ7cc">
     <mxGraphModel dx="1194" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -21,6 +21,36 @@
         </mxCell>
         <mxCell id="AQe1WXLrc3i2_WxAf1Ih-6" value="One Developer instance&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="130" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AQe1WXLrc3i2_WxAf1Ih-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;startFill=1;dashed=1;" edge="1" parent="1" source="AQe1WXLrc3i2_WxAf1Ih-8" target="AQe1WXLrc3i2_WxAf1Ih-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="420" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AQe1WXLrc3i2_WxAf1Ih-8" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecr;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="845.5" y="478" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="AQe1WXLrc3i2_WxAf1Ih-9" value="Container Repository" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AQe1WXLrc3i2_WxAf1Ih-10" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2_compute_container_3;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="60" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AQe1WXLrc3i2_WxAf1Ih-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AQe1WXLrc3i2_WxAf1Ih-11" target="AQe1WXLrc3i2_WxAf1Ih-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQe1WXLrc3i2_WxAf1Ih-11" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2_compute_container_3;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="330" width="60" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AQe1WXLrc3i2_WxAf1Ih-12" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2_compute_container_3;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="60" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AQe1WXLrc3i2_WxAf1Ih-13" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2_compute_container_3;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="60" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AQe1WXLrc3i2_WxAf1Ih-14" value="Containers running within instance.&lt;br&gt;&lt;br&gt;While containers are usually isolated from the Host OS and each other, the developer can configure some containers to communicate with each other, if desired.&amp;nbsp;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="210" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
